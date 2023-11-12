@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="css/stylesheet.css"/>
+</head>
+<body>
+    <a href="front.html">Home</a>
+	<a href="about_us.html">About us</a>
+	<a href="contact_us.html">Contact us</a>
+
+    <!--<h1 style="color: rgb(12, 43, 100);">Contact Us</h1>-->
+   <h1>Contact us</h1>
+    <hr/>
+
+    <h2>Locations</h2>
+        
+    <table>
+        <tr> 
+            <th>Location</th>
+            <th>Opening Hours</th>
+            <th>Email Adress</th>
+            <th>Phone Number</th>
+        </tr>
+        <tr>
+            <td>Mandeville</td>
+            <td>9AM-5PM</td>
+            <td>mandevillebranch@preservation.com</td>
+            <td>18767412589</td>
+        </tr>
+        <tr>
+            <td>Kingston</td>
+            <td>9AM-5PM</td>
+            <td>kingstonebranch@preservation.com</td>
+            <td>1876741589</td>
+        </tr>
+        <tr>
+            <td>Montego Bay</td>
+            <td>9AM-5PM</td>
+            <td>mobaybranch@preservation.com</td>
+            <td>18767418589</td>
+        </tr>
+    </table>
+
+    <h3>General inquiries</h3>
+
+    <form action="confirmation.html"> 
+        <label for="fullname">Name: *</label>
+        <input required type="text" id="fullname" name="fullname" />
+        <br/> 
+        <label for="email">Email Adress: *</label>
+        <input required type="email" id="email" name="emailadress" />
+        <br/>  
+        <label>Are you employed?</label> 
+        <br/>
+        <input type="radio" value="Y" name="employed" />Yes 
+        <input required type="radio" value="N" name="employed"  />No
+        <br/> 
+        <label for="inquiry">State your inquiry</label>
+        <br/>
+        <textarea cols="50" rows=" 10" maxlength="100" id="inquiry" name="inquiry"></textarea>
+        <br/> 
+        <input type="submit"/>
+         
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+h1{
+    color: rgb(12, 43, 100);
+}
+h2,h3{
+    color:rgb(145, 212, 215);
+    text-decoration:overline; 
+}
+p,li{
+    font-family: 'Courier New', Courier, monospace;
+}
+#banner {
+    background-color:rgb(254, 254, 246) ;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+#banner p{
+   margin: 0;
+}
+#nav,nav {
+    background-color:cadetblue;
+    color:aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+#nav a ,nav a{ 
+    color:aliceblue;
+    text-decoration: none;
+    font-size:large;
+    margin-right: 8px;
+}
+#nav a:hover{
+    background-color: mediumslateblue;
+}
+nav a:hover{
+    background-color: mediumslateblue;
+}
+#footer{
+    background-color:cadetblue;
+    min-height:50px;
+    text-align: center;
+}
+#footer a{
+    color:beige ;
+    text-decoration: overline;
+}
+#main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+article{
+   margin-bottom: 100px;
+
+}

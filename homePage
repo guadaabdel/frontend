@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home Page</title> 
+		<link rel="stylesheet" href="css/stylesheet.css"/>
+	</head>
+
+	<body>
+		
+		<div id="header"> 
+			<div id="banner">
+				<p>Random website notification</p>
+			</div>
+			<!-- anchor tags used fopr internal navigation-->
+			<div id ="nav">
+
+				<a href="front.html">Home Page</a>
+				<a href="about_us.html">About us</a>
+				<a href="contact_us.html">Contact us</a>
+			</div>
+		</div>	
+		
+		<div id="main">
+			<!-- Examples of heading tags -->
+		<!-- <h1 style="color: rgb(12, 43, 100);">Animal Preservation Centre - Americas</h1>  -->
+			
+			<h1>Animal Preservation Centre - Americas</h1>
+			<h2>Perservation success story </h2>
+			<p>There should be a </p> 
+
+			<p>A design is a concept of either an object, a process, or a system that is specific and,
+			in most cases, detailed. Design refers to something that is or has been intentionally created by a thinking agent,
+			though it is sometimes used to refer to the nature of something.</p> 
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/yJX1Te0jey0?si=pugpaqlV5Lj1UPRB"
+				title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+				allowfullscreen>
+
+			</iframe>
+			<h2>World changing</h2>
+			<video width="560" height="315" controls=""></video>
+			
+			
+			<h3>Heading 3</h3>
+			<h4>Heading 4</h4>
+			<h5>Heading 5</h5>
+			<h6>Heading 6</h6>
+			<h7>Heading 7</h7>
+		</div>
+
+		<div id="footer">
+			<br/><br/>
+			<a href="https://www.amazon.com">Amazon</a>
+			<a href="https://www.ebay.com" target="_blank">ebay</a>
+			
+		</div>
+
+
+	</body>
+
+
+
+</html>	

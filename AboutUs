@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+     <link rel="stylesheet" href="css/stylesheet.css"/>
+   
+</head>
+<body>
+    <header>
+        <div id="banner">
+            <p>Notification</p>
+        </div>
+        <nav>
+            <a href="front.html">Home</a>
+	        <a href="about_us.html">About us</a>
+	        <a href="contact_us.html">Contact us</a>
+
+        </nav>
+    </header>
+
+    <main>
+           
+        <!-- <h1 style="color: rgb(12, 43, 100);">About Us</h1>// I MIGRATE IT TO THE STYLE-->
+        <h1>About us</h1>
+        <hr/>
+        
+        <article>    
+            <h2>Animal Perservation</h2>
+            <img src="images/tiger-8214815_1280.png" alt="adult tiger" height="320" width="540"  />
+        </article>   
+
+        <article>
+            <h2>Daily Tasks</h2>
+            <ul>
+                <li>We patrol preservations</li> 
+                <li>We protect</li>
+                <li>We police</li>
+                <li>We rescue</li>  
+            </ul>    
+        </article>
+
+        <article>
+            <h2>How you can join</h2>
+            <ol> 
+            <li>Call our recruitment center</li> 
+            <li>Send your resume</li>
+            <li>Attend Interview</li>
+            <li>Complete Trainings</li>
+            <li>
+                <a href="contact_us.html"> Contact Center Office</a>
+            </li>
+            </ol>
+        </article>
+        
+    </main>
+</body>
+</html>
